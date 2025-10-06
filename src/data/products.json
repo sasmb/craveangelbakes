@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Cinnamon Rolls",
+    "price": 80.00,
+    "image": "/images/Screenshot 2025-10-06 at 17.05.41.png",
+    "description": "Freshly baked classic cinnamon rolls - in every bite is love...",
+    "category": "Cinnamon Rolls"
+  },
+  {
+    "id": 2,
+    "name": "Caramel Cinnamon Rolls",
+    "price": 85.00,
+    "image": "/images/Screenshot 2025-10-06 at 17.05.57.png",
+    "description": "Indulgent cinnamon rolls with rich caramel drizzle - in every bite is love...",
+    "category": "Cinnamon Rolls"
+  },
+  {
+    "id": 3,
+    "name": "Oreo Crumble Cinnamon Rolls",
+    "price": 95.00,
+    "image": "/images/Screenshot 2025-10-06 at 17.06.17.png",
+    "description": "Decadent cinnamon rolls topped with Oreo crumbles - in every bite is love...",
+    "category": "Cinnamon Rolls"
+  },
+  {
+    "id": 4,
+    "name": "Classic Brownies",
+    "price": 50.00,
+    "image": "/images/Screenshot 2025-10-06 at 17.06.45.png",
+    "description": "Rich, fudgy classic brownies - in every bite is love...",
+    "category": "Brownies"
+  },
+  {
+    "id": 5,
+    "name": "Caramel Brownies",
+    "price": 55.00,
+    "image": "/images/Screenshot 2025-10-06 at 17.06.54.png",
+    "description": "Fudgy brownies swirled with golden caramel - in every bite is love...",
+    "category": "Brownies"
+  },
+  {
+    "id": 6,
+    "name": "Cookie Dough Brownies",
+    "price": 70.00,
+    "image": "/images/Screenshot 2025-10-06 at 17.06.45.png",
+    "description": "Ultimate brownies with cookie dough chunks - in every bite is love...",
+    "category": "Brownies"
+  }
+]
