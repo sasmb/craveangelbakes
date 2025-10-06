@@ -41,9 +41,6 @@ export default function CheckoutPage() {
   };
 
   const generateWhatsAppMessage = () => {
-    // Generate order number (random for now)
-    const orderNumber = Math.floor(Math.random() * 10000);
-    
     // Get current date
     const currentDate = new Date().toLocaleDateString('en-US', {
       month: 'numeric',
@@ -60,7 +57,7 @@ export default function CheckoutPage() {
     // Create the structured message
     const message = `Hi! I've successfully placed an order on your website.
 Order Details:
-📋 Order Number: ${orderNumber}
+
 📅 Order Date: ${currentDate}
 📧 Email: ${formData.email}
 📍 Billing Address: ${formData.name}, ${formData.address}
