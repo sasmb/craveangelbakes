@@ -5,6 +5,7 @@ import { useCart, CartItem } from '@/contexts/CartContext';
 import { Layout } from '@/components/Layout';
 import { generateWhatsAppUrl } from '@/config/constants';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function CheckoutPage() {
   const { cart, updateQuantity, removeFromCart, getTotalPrice, getItemCount } = useCart();
@@ -149,9 +150,11 @@ I would like to confirm this order and proceed with any additional steps needed.
                 <div className="space-y-4 mb-6">
                   {cart.map((item: CartItem) => (
                     <div key={item.id} className="flex items-center space-x-4 bg-white rounded-lg p-4">
-                      <img 
+                      <Image 
                         src={item.image} 
                         alt={item.name}
+                        width={64}
+                        height={64}
                         className="w-16 h-16 object-cover rounded-lg"
                       />
                       <div className="flex-1">

@@ -26,7 +26,7 @@ export default function About() {
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  Founded with a passion for creating delicious moments, CRAVE ANGEL BAKES began as a dream to provide premium quality baked goods that truly bring joy to people's lives. What started as a small home bakery has grown into a trusted brand serving customers worldwide.
+                  Founded with a passion for creating delicious moments, CRAVE ANGEL BAKES began as a dream to provide premium quality baked goods that truly bring joy to people&apos;s lives. What started as a small home bakery has grown into a trusted brand serving customers worldwide.
                 </p>
                 <p className="text-lg text-gray-600 mb-6">
                   Our founder understood the power of handcrafted treats in bringing people together and creating lasting memories. Through years of perfecting recipes and sourcing the finest ingredients, we&apos;ve built a collection that represents the finest in artisanal baking.
