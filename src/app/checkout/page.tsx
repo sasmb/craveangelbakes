@@ -54,12 +54,11 @@ export default function CheckoutPage() {
     // Build items list
     const itemsList = cart.map((item: CartItem) => {
       const totalItemPrice = (item.price * item.quantity).toFixed(2);
-      return `•  ${item.quantity}x ${item.name} - ${totalItemPrice} TL`;
+      return `• ${item.quantity}x ${item.name} - ${totalItemPrice} TL`;
     }).join('\n');
     
     // Create the structured message
     const message = `Hi! I've successfully placed an order on your website.
-
 Order Details:
 📋 Order Number: ${orderNumber}
 📅 Order Date: ${currentDate}
