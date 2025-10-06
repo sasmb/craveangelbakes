@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "CRAVE ANGEL BAKES - Premium Baked Goods & Treats",
   description: "Indulge in premium handcrafted baked goods, artisan cakes, and delicious treats. Ethically sourced ingredients, expertly baked for memorable moments.",
+  icons: {
+    icon: '/images/1.png',
+  },
 };
 
 export default function RootLayout({
