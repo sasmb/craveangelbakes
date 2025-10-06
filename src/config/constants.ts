@@ -2,9 +2,9 @@
 export const BUSINESS_CONFIG = {
   // WhatsApp Business Link (can be wa.me/NUMBER or wa.link/SHORT_CODE)
   // Format options:
-  // 1. Full number: "905338671466" (will use wa.me/NUMBER)
+  // 1. Full number: "905488417908" (will use wa.me/NUMBER)
   // 2. Short link: "wa.link/i9n1mn" (direct short link)
-  whatsappLink: "wa.link/i9n1mn", // ✅ WhatsApp Short Link
+  whatsappLink: "905488417908", // ✅ Using direct number to allow custom messages
   
   // Social Media Links
   instagram: "https://www.instagram.com/craveangelbakes",
