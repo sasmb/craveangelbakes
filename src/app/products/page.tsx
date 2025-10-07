@@ -11,8 +11,7 @@ export default function Products() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">Our Products</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Discover our premium collection of baked goods, cakes, and delicious treats. 
-              Each piece is carefully selected for quality, beauty, and durability.
+              Our products are homemade, healthy products that would satisfy both people cravings and will still keep them healthy yes.
             </p>
           </div>
         </div>

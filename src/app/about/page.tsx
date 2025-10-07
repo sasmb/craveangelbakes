@@ -13,7 +13,7 @@ export default function About() {
                 About CRAVE ANGEL BAKES
               </h1>
               <p className="mt-6 max-w-3xl mx-auto text-xl text-gray-600">
-                Bringing joy through handcrafted baked goods and exceptional service since 2015.
+                Bringing joy through handcrafted baked goods and exceptional service.
               </p>
             </div>
           </div>
