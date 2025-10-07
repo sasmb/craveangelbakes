@@ -146,45 +146,45 @@ I would like to confirm this order and proceed with any additional steps needed.
                 <div className="space-y-4 mb-6">
                   {cart.map((item: CartItem) => (
                     <div key={item.id} className="bg-white rounded-lg p-3 sm:p-4">
-                      <div className="flex items-start space-x-3 sm:space-x-4">
+                      <div className="flex items-start space-x-2 sm:space-x-4">
                         <Image 
                           src={item.image} 
                           alt={item.name}
                           width={64}
                           height={64}
-                          className="w-14 h-14 sm:w-16 sm:h-16 object-cover rounded-lg flex-shrink-0"
+                          className="w-12 h-12 sm:w-16 sm:h-16 object-cover rounded-lg flex-shrink-0"
                         />
-                        <div className="flex-1 min-w-0">
-                          <h3 className="font-semibold text-gray-900 text-sm sm:text-base truncate">{item.name}</h3>
-                          <p className="text-gray-600 text-sm sm:text-base">{item.price}TL</p>
+                        <div className="flex-1 min-w-0 pr-1">
+                          <h3 className="font-semibold text-gray-900 text-xs sm:text-base truncate pr-1">{item.name}</h3>
+                          <p className="text-gray-600 text-xs sm:text-base">{item.price}TL</p>
                         </div>
                       </div>
                       
                       {/* Quantity controls moved to separate row on mobile for better spacing */}
                       <div className="flex items-center justify-between mt-3 pt-3 border-t border-gray-100">
-                        <div className="flex items-center space-x-2 sm:space-x-3">
+                        <div className="flex items-center space-x-1.5 sm:space-x-3">
                           <button
                             onClick={() => updateQuantity(item.id, Math.max(1, item.quantity - 1))}
-                            className="w-7 h-7 sm:w-8 sm:h-8 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition-colors flex-shrink-0"
+                            className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition-colors flex-shrink-0"
                             aria-label="Decrease quantity"
                           >
-                            <span className="text-base sm:text-lg">−</span>
+                            <span className="text-sm sm:text-lg">−</span>
                           </button>
-                          <span className="w-6 sm:w-8 text-center font-semibold text-sm sm:text-base">{item.quantity}</span>
+                          <span className="w-5 sm:w-8 text-center font-semibold text-xs sm:text-base">{item.quantity}</span>
                           <button
                             onClick={() => updateQuantity(item.id, Math.min(10, item.quantity + 1))}
-                            className="w-7 h-7 sm:w-8 sm:h-8 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition-colors flex-shrink-0"
+                            className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition-colors flex-shrink-0"
                             aria-label="Increase quantity"
                           >
-                            <span className="text-base sm:text-lg">+</span>
+                            <span className="text-sm sm:text-lg">+</span>
                           </button>
                         </div>
                         <button
                           onClick={() => removeFromCart(item.id)}
-                          className="text-red-500 hover:text-red-700 transition-colors p-2"
+                          className="text-red-500 hover:text-red-700 transition-colors p-1 sm:p-2 flex-shrink-0"
                           aria-label="Remove item"
                         >
-                          <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-3.5 h-3.5 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
                           </svg>
                         </button>
